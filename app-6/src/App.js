@@ -9,7 +9,8 @@ function App() {
   const displayTasks = tasks.map((element, index) => {
     return <Todo task={element} key={index} />;
   });
-
+  console.log(input);
+  console.log(tasks);
   return (
     <div className="App">
       <h1>My Todo list:</h1>
