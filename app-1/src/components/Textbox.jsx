@@ -1,14 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Textbox() {
-  const [userInput, setUserInput] = useState("");
-
-  return (
-    <div className="App">
-      <input type="text" onChange={(e) => setUserInput(e.target.value)} />
-      <p>{userInput}</p>
-    </div>
-  );
+  return <div></div>;
 }
 
 export default Textbox;

@@ -3,22 +3,7 @@ import "./App.css";
 import Todo from "./Todo";
 
 function App() {
-  const [tasks, setTasks] = useState([]);
-  const [input, setInput] = useState("");
-
-  const displayTasks = tasks.map((element, index) => {
-    return <Todo task={element} key={index} />;
-  });
-  console.log(input);
-  console.log(tasks);
-  return (
-    <div className="App">
-      <h1>My Todo list:</h1>
-      <input type="text" onChange={(e) => setInput(e.target.value)} />
-      <button onClick={() => setTasks([...tasks, input])}>Add</button>
-      {displayTasks}
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
