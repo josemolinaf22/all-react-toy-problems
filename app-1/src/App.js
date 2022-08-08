@@ -1,9 +1,0 @@
-import React from "react";
-import "./App.css";
-import Textbox from "./components/Textbox";
-
-function App() {
-  return <div></div>;
-}
-
-export default App;
